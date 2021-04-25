@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+button {
+    background-color: #0090F6;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.modal-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70vh;
+    width: 100vw;
+    filter: drop-shadow(2px 4px 6px rgb(138, 135, 135));
+}
+
+.modal {
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 5px;
+}
+
+.closePopup {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+input,
+select {
+    background-color: transparent;
+    border-color: #C3C7C8;
+    border: 2px;
+    border-radius: 5px;
+    border-style: groove;
+    padding: 8px 15px;
+    font-size: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    -moz-appearance: none;
+}
+
+.qty {
+    border-color: #C3C7C8;
+    border: 2px;
+    border-radius: 5px;
+    border-style: groove;
+    padding: 8px 15px;
+    width: 30%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.addQty {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.deliver {
+    font-size: 13px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.price {
+    color: #0090F6;
+    margin-top: 15px;
+}
+
+select {
+    -webkit-appearance: none;
+}
