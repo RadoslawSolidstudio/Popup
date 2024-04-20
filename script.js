@@ -170,7 +170,7 @@ document.querySelector('button').addEventListener('click', () => {
 
     //Zmiana koloru oraz ceny
     let currentPrice = 125;
-
+console.log(test)
     document.querySelectorAll('input').forEach((e) => {
         e.addEventListener('click', () => {
             quaNumber.innerHTML = '1';
